@@ -56,8 +56,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 333.0, 344.0, 71.0, 22.0 ],
-					"text" : "Hello world!"
+					"patching_rect" : [ 333.0, 344.0, 102.0, 22.0 ],
+					"text" : "hello world again!"
 				}
 
 			}
@@ -115,7 +115,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 751.0, 367.0, 150.0, 33.0 ],
+					"patching_rect" : [ 751.0, 367.0, 153.0, 33.0 ],
 					"text" : "ezdac, addresses physical outputs 1 and 2"
 				}
 
