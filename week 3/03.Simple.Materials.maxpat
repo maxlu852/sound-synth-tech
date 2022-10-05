@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 94.0, 79.0, 1244.0, 721.0 ],
+		"rect" : [ 139.0, 79.0, 1244.0, 721.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,18 +39,6 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-86",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 163.0, 1053.0, 92.0, 22.0 ],
-					"text" : "onepole~ 1000."
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-69",
 					"maxclass" : "newobj",
@@ -294,8 +282,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1131.800012648105621, 575.666663765907288, 50.0, 62.0 ],
-					"presentation_linecount" : 4,
-					"text" : "0.19 0.33 0.62 0.93"
+					"text" : "0.84 0.93 0.64 0.25"
 				}
 
 			}
@@ -378,7 +365,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1215.750014245510101, 336.333324909210205, 150.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "multislider @size 4 @setstyle 1 @setminmax 0. 1."
 				}
 
@@ -555,7 +541,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 273.0, 122.5, 87.0, 60.0 ],
-					"presentation_linecount" : 4,
 					"text" : "cmd + double click on a point to toggle sustain"
 				}
 
@@ -617,7 +602,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 524.499998092651367, 622.66667366027832, 197.0, 60.0 ],
-					"presentation_linecount" : 4,
 					"text" : "trigger when velocity > 0, trgger first part of the line until the sustain point, when the next message will be sent"
 				}
 
@@ -630,7 +614,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 471.999997913837433, 577.66667366027832, 257.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "left outlet bangs if 0, right outlet is any number but 0"
 				}
 
@@ -933,7 +916,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 421.666666626930237, 1018.0, 92.0, 62.0 ],
-					"presentation_linecount" : 3,
 					"text" : "rm-amp -2;\rmodulator 120.;\rcarrier 150.;\r"
 				}
 
@@ -1223,7 +1205,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-86", 0 ],
+					"destination" : [ "obj-5", 0 ],
+					"order" : 0,
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 1,
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -1454,22 +1445,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-83", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"order" : 0,
-					"source" : [ "obj-86", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"order" : 1,
-					"source" : [ "obj-86", 0 ]
 				}
 
 			}

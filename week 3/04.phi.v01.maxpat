@@ -1218,7 +1218,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
-					"source" : [ "obj-70", 1 ]
+					"source" : [ "obj-70", 0 ]
 				}
 
 			}
@@ -1381,7 +1381,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "phi.polyCore.v01.maxpat",
-				"bootpath" : "~/Desktop/fall2022/sound-synth-tech/week 4",
+				"bootpath" : "~/Desktop/fall2022/sound-synth-tech/week 3",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
