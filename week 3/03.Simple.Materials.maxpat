@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 139.0, 79.0, 1244.0, 721.0 ],
+		"rect" : [ 135.0, 236.0, 1244.0, 721.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -205,7 +205,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 44.666666626930237, 404.00001186132431, 54.0, 22.0 ],
-					"text" : "*~ 0.403"
+					"text" : "*~ 0.103"
 				}
 
 			}
@@ -282,7 +282,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1131.800012648105621, 575.666663765907288, 50.0, 62.0 ],
-					"text" : "0.84 0.93 0.64 0.25"
+					"text" : "0.63 0.87 0.11 0.1"
 				}
 
 			}
@@ -683,7 +683,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 754.0, 182.0, 74.0, 20.0 ],
+					"patching_rect" : [ 758.0, -32.0, 74.0, 20.0 ],
 					"text" : "midi velocity"
 				}
 
@@ -694,7 +694,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 437.0, 184.0, 67.0, 20.0 ],
+					"patching_rect" : [ 441.0, -30.0, 67.0, 20.0 ],
 					"text" : "midi note #"
 				}
 
@@ -719,7 +719,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 702.0, 182.0, 50.0, 22.0 ]
+					"patching_rect" : [ 706.0, -32.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -731,7 +731,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 385.0, 182.0, 50.0, 22.0 ]
+					"patching_rect" : [ 389.0, -32.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -744,7 +744,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 385.0, 106.0, 336.0, 53.0 ]
+					"patching_rect" : [ 389.0, -108.0, 336.0, 53.0 ]
 				}
 
 			}
@@ -1000,8 +1000,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 313.666666626930237, 861.0, 57.0, 22.0 ],
-					"text" : "r rm-amp"
+					"patching_rect" : [ 313.666666626930237, 861.0, 59.0, 22.0 ],
+					"text" : "r ringamp"
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 511.0, 79.0, 783.0, 581.0 ],
+		"rect" : [ 483.0, 96.0, 687.0, 719.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,67 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"basictuning" : 440,
+					"clipheight" : 87.0,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "/Users/maxlu/Desktop/music/composition pdfs/catharsis/Lu_Catharsis_Final Mix.mp3",
+								"filename" : "Lu_Catharsis_Final Mix.mp3",
+								"filekind" : "audiofile",
+								"id" : "u864002327",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-9",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 332.080002260208175, 296.60000342130661, 305.0, 88.0 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 487.080002260208119, 83.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 362.0, 250.0, 35.0, 22.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-56",
 					"maxclass" : "newobj",
@@ -174,33 +235,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 456.700002789497375, 281.60000342130661, 150.0, 20.0 ],
+					"patching_rect" : [ 415.700002789497375, 256.60000342130661, 150.0, 20.0 ],
 					"text" : "<playlist~>"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"basictuning" : 0,
-					"data" : 					{
-						"clips" : [  ]
-					}
-,
-					"followglobaltempo" : 0,
-					"formantcorrection" : 0,
-					"id" : "obj-31",
-					"maxclass" : "playlist~",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"originallength" : [ 0 ],
-					"originaltempo" : 0,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 309.600004851818085, 281.60000342130661, 150.0, 92.0 ],
-					"pitchcorrection" : 0,
-					"quality" : 0,
-					"timestretch" : [ 0 ]
 				}
 
 			}
@@ -419,16 +455,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 5 ],
-					"source" : [ "obj-30", 0 ]
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 2 ],
-					"midpoints" : [ 319.100004851818085, 444.200001955032349, 129.399998724460602, 444.200001955032349, 129.399998724460602, 253.800000905990601, 130.199999630451202, 253.800000905990601, 130.199999630451202, 169.600000321865082, 315.340001201629661, 169.600000321865082 ],
-					"source" : [ "obj-31", 0 ]
+					"destination" : [ "obj-19", 5 ],
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
@@ -456,7 +491,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"order" : 1,
 					"source" : [ "obj-42", 0 ]
 				}
@@ -480,6 +515,21 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 1 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 2 ],
+					"midpoints" : [ 341.580002260208175, 390.0, 312.0, 390.0, 312.0, 255.0, 153.0, 255.0, 153.0, 207.0, 315.340001201629661, 207.0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
