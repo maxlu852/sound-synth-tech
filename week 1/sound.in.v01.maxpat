@@ -44,10 +44,10 @@
 					"clipheight" : 87.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/maxlu/Desktop/music/composition pdfs/catharsis/Lu_Catharsis_Final Mix.mp3",
-								"filename" : "Lu_Catharsis_Final Mix.mp3",
+								"absolutepath" : "/Users/maxlu/Desktop/fall2022/sound-synth-tech/media/sound.to.put.in.media.folder/RB.vox.sung.consonants.ki.Db4.wav",
+								"filename" : "RB.vox.sung.consonants.ki.Db4.wav",
 								"filekind" : "audiofile",
-								"id" : "u864002327",
+								"id" : "u546005865",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -149,6 +149,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.92156862745098, 1.0, 0.0, 1.0 ],
 					"id" : "obj-50",
 					"maxclass" : "newobj",
 					"numinlets" : 1,

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 296.0, 81.0, 196.0, 241.0 ],
+		"rect" : [ 296.0, 80.0, 196.0, 241.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,8 +55,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.0, 68.0, 121.0, 22.0 ],
-					"text" : "sound.out.v01.stereo"
+					"patching_rect" : [ 35.0, 68.0, 107.0, 22.0 ],
+					"text" : "sound.out.v02.8ch"
 				}
 
 			}
@@ -95,7 +95,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sound.out.v01.stereo.maxpat",
+				"name" : "sound.out.v02.8ch.maxpat",
 				"bootpath" : "~/Desktop/fall2022/sound-synth-tech/week 1",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
