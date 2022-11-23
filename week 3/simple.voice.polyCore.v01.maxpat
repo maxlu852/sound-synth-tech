@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 198.0, 126.0, 679.0, 706.0 ],
+		"rect" : [ 347.0, 282.0, 679.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 497.0, 454.0, 181.0, 33.0 ],
-					"presentation_linecount" : 3,
 					"text" : "mute 1 = UNMUTE this voice \n0 = busy state: FREE"
 				}
 
@@ -145,10 +144,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 256.5, 449.0, 35.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 2"
 				}
 
@@ -161,10 +156,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 208.5, 449.0, 35.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 1"
 				}
 
@@ -177,10 +168,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 111.5, 469.0, 42.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
@@ -194,10 +181,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 111.5, 55.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 
@@ -217,8 +200,8 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.587984521193897, 0.00868857120516, 0, 28.811241538500923, 0.477871416283807, 0, 48.802715259093418, 0.295411420975444, 0, 102.897291208931918, 0.286722849770284, 0, 177.571325400556731, 0.01737714241032, 0 ],
-					"domain" : 177.571502685546875,
+					"addpoints" : [ 1.179277280233865, 0.008688576804731, 0, 57.784586731459306, 0.477871724260193, 0, 97.880014259410657, 0.295411611360846, 0, 206.373524040926327, 0.286723034556115, 0, 356.141738630627003, 0.017377153609461, 0 ],
+					"domain" : 356.14300537109375,
 					"id" : "obj-26",
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -563,32 +546,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "bach.args.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.expr.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.mc2f.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.playkeys.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.portal.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 703.0, 231.0, 640.0, 480.0 ],
+		"rect" : [ 288.0, 79.0, 823.0, 717.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -964,42 +964,6 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.780392156862745, 0.0, 1.0, 1.0 ],
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 270.5, 1124.000000238418579, 68.0, 22.0 ],
-					"text" : "send~ out2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.850980392156863, 0.0, 1.0, 1.0 ],
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 175.5, 1124.000000238418579, 68.0, 22.0 ],
-					"text" : "send~ out1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 182.5, 1084.000000238418579, 54.0, 22.0 ],
-					"text" : "*~ 0.707"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-5",
 					"linecount" : 4,
 					"maxclass" : "message",
@@ -1033,7 +997,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "", "", "" ],
 					"patching_rect" : [ 182.5, 889.0, 154.0, 22.0 ],
-					"text" : "poly~ krell.polyCore.v01 16"
+					"text" : "poly~ krell.polyCore.v03 16"
 				}
 
 			}
@@ -1388,22 +1352,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"order" : 1,
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"order" : 0,
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-62", 0 ]
 				}
@@ -1491,13 +1439,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-11", 7 ],
 					"source" : [ "obj-89", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-9", 0 ]
 				}
 
 			}
@@ -1600,7 +1541,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "krell.polyCore.v01.maxpat",
+				"name" : "krell.polyCore.v03.maxpat",
 				"bootpath" : "~/Desktop/fall2022/sound-synth-tech/week 11",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

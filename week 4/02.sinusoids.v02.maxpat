@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 603.0, 110.0, 640.0, 480.0 ],
+		"rect" : [ 157.0, 79.0, 867.0, 642.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -563,8 +563,7 @@
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"numoutlets" : 0,
 					"patching_rect" : [ 315.0, 169.599999845027924, 96.0, 22.0 ],
 					"text" : "SDIF-buffer max"
 				}
@@ -832,10 +831,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "SDIF-buffer.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "SDIF-tuples.mxo",
 				"type" : "iLaX"
 			}
